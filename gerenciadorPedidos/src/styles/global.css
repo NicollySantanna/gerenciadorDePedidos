@@ -1,0 +1,14 @@
+@import './reset.css';
+@import './variables.css';
+
+body{
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: var(--spacing-md);
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

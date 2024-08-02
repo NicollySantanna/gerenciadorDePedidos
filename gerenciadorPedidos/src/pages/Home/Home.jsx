@@ -1,20 +1,23 @@
-import React from 'react'
-import { Button} from 'flowbite-react'
-import Input from '../../components/Input/Input'
-import Logo from '../../components/Logo/Logo'
+import React from "react";
+import Input from "../../components/Input/InputSearch.jsx";
+import Logo from "../../components/Logo/Logo";
+import CardFood from "../../components/CardFood/CardFood.jsx";
 
 const Home = () => {
   return (
     <div>
-        <header>
-            <Logo/>
-            <Input/>
-        </header>
-        
-        <nav>
-        </nav>
-    </div>
-  )
-}
+      <header>
+        <Logo />
+        <Input />
+      </header>
 
-export default Home
+      <main>
+        <CardFood/>
+      </main>
+
+      <nav></nav>
+    </div>
+  );
+};
+
+export default Home;

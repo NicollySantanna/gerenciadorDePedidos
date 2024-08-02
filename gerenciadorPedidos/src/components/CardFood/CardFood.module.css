@@ -1,0 +1,18 @@
+.containerCard{
+    display: flex;
+    width: 343px;
+    height: 88px;
+    margin: 38px 30px;
+}
+
+.cardImg img{
+    width: 87px;
+    height: 89px;
+    border-radius: 8px;
+}
+
+.infoCard{
+    margin-left: 18px;
+}
+
+

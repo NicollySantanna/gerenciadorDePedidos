@@ -1,0 +1,19 @@
+form .containerInput{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 2.5rem 0;
+}
+
+#inputSearch{
+    border: none;
+    border-radius: 1rem;
+    width: 300px;
+}
+
+form .iconSearch{
+    position: absolute;
+    left: 340px;
+}

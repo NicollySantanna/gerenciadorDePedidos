@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from './Logo.module.css'
 function Logo() {
   return (
-    <p>Sua logo</p>
+    <p className={styles.logo}>Entrega ai</p>
   )
 }
 

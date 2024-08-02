@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    padding-left: 28px;
+    margin: 30px 0;
+}
+
+.cardCategory{
+cursor: pointer;
+align-items: center;
+width: 83px;
+height: 110px;
+}
+
+.container img{
+    width: 85px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container p{
+    margin-top: 10px ;
+    font-size: 14px;
+    text-align: center;
+}
+
