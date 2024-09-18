@@ -1,0 +1,56 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "name": "Hamburguer",
+        "imageSrc": "https://img.freepik.com/fotos-gratis/hamburguer-de-vista-frontal-em-um-carrinho_141793-15542.jpg",
+        "price": 53.99,
+        "category": "Hamburguer"
+      },
+      {
+        "id": 2,
+        "name": "Pizza de calabresa",
+        "imageSrc": "https://img.freepik.com/fotos-gratis/pizza-de-calabresa-com-azeitonas-na-placa-de-madeira_140725-5374.jpg",
+        "price": 89.99,
+        "category": "Massas"
+      },
+      {
+        "id": 3,
+        "name": "Salada",
+        "imageSrc": "https://img.freepik.com/fotos-gratis/frango-grelhado-arroz-grao-de-bico-picante-abacate-repolho-pimenta-na-tigela-buda_127032-1996.jpg",
+        "price": 43.44,
+        "category": "Saladas"
+      },
+      {
+        "id": 4,
+        "name": "Prato carioca",
+        "imageSrc": "https://img.freepik.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?w=996&t=st=1726097667~exp=1726098267~hmac=4279d6f6db8426a0cd1b5046741a6225cab4c7af711d68089d2e89543559c83c",
+        "price": 45.88,
+        "category": "Pratos tradicionais"
+      }
+    ],
+
+    "cardFoods": [
+        {
+          "id": 1,
+          "cardImg": "https://img.freepik.com/fotos-gratis/frango-grelhado-arroz-grao-de-bico-picante-abacate-repolho-pimenta-na-tigela-buda_127032-1996.jpg?ga=GA1.1.1229035658.1718065502&semt=sph",
+          "nameFood": "Salada",
+          "priceFood":"R$43.44"
+        },
+        {
+          "id": 2,
+          "cardImg": "https://img.freepik.com/fotos-gratis/hamburguer-de-vista-frontal-em-um-carrinho_141793-15542.jpg?t=st=1722626374~exp=1722629974~hmac=266b4a686f5cce9e515f25c3cf9679df3a963a84c26e529159ad5c409a87ab81&w=1480",
+          "nameFood": "Hamburguer",
+          "priceFood":"R$53.99"
+        },
+        {
+          "id": 3,
+          "cardImg": "https://img.freepik.com/fotos-gratis/pizza-de-calabresa-com-azeitonas-na-placa-de-madeira_140725-5374.jpg?t=st=1722626494~exp=1722630094~hmac=f8e852253e0e27443d8ca788a714551705e23511ff6ab2cfd17718c90e2e4c7c&w=900",
+          "nameFood": "Pizza de calabresa",
+          "priceFood":"R$89.99"
+        }
+       
+      ]
+  }
+ 
+  

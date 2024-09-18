@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import './inputSearch.css'
 
 const InputSearch = () => {
+
   return (
    <>
     <form>
@@ -10,7 +11,7 @@ const InputSearch = () => {
             <div className="iconSearch">
                 <a href=""><FaSearch/></a>
             </div>
-            <input type="search" placeholder='Buscar...'  id='inputSearch'/>
+            <input type="text" placeholder='Buscar...'  id='inputSearch'/>
           </div>
     </form>
 

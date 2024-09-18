@@ -1,0 +1,43 @@
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+  }
+
+  .containerInfo{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerInfo h2{
+    font-weight: bold;
+  }
+
+  .containerInfo span{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .infoDown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+  }

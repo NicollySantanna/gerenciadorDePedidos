@@ -3,6 +3,7 @@
     width: 343px;
     height: 88px;
     margin: 38px 30px;
+    cursor: pointer;
 }
 
 .cardImg img{

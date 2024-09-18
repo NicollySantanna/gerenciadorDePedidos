@@ -1,12 +1,13 @@
 import React from 'react'
-import  styles from './CardFood.module.css'
+import styles from './CardFood.module.css'
 
-function CardFood({cardImg, nameFood, priceFood}) {
+
+function CardFood({cardImg, nameFood, priceFood, openModal}) {
   return (
    <>
    <div className={styles.containerCard}>
-    <div className={styles.cardImg}>
-    <img src={cardImg} alt="" />
+    <div className={styles.cardImg} onClick={openModal}>
+    <img src={cardImg} alt=""/>
     </div>
     <div className={styles.infoCard}>
         <p className={styles.Namefood}>{nameFood}</p>
@@ -19,3 +20,4 @@ function CardFood({cardImg, nameFood, priceFood}) {
 }
 
 export default CardFood
+ 
